@@ -16,5 +16,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/category")
 public class CategoryController {
 	
+	public void syso2() {
+		System.out.print("hello word");
+	}
 }
 
