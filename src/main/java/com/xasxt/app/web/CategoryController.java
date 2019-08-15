@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class CategoryController {
 	
 	public void syso2() {
-		System.out.print("hello wordcdscdsc");
+		System.out.print("hello wordcdscdscfdsfv");
 	}
 }
 
