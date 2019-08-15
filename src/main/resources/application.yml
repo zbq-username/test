@@ -1,0 +1,25 @@
+#配置springboot内置tomcat端口,默认是8080
+server:    
+  port: 80
+
+  
+#配置mybatis-plus自身信息
+mybatis-plus:
+  type-aliases-package: com.xasxt.app.bean
+  mapper-locations: mapper/*Mapper.xml
+  configuration:
+    auto-mapping-behavior: partial   #根据表字段生成结果映射
+  global-config:
+    db-config:
+      db-type: mysql
+      id-type: auto
+
+  
+  
+#配置mybatis在控制台输出sql脚本
+logging:  
+  level:
+     com:
+       xasxt:
+           app:
+             dao: TRACE
